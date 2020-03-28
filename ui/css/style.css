@@ -8,6 +8,72 @@
 img {
   width: 100%;
 }
+
 .logo {
   width: 100px;
+}
+#title {
+  background-image: linear-gradient(-90deg, rgb(4, 4, 202), rgb(3, 3, 180));
+  padding-bottom: 1rem;
+}
+.headline {
+  margin-top: 3rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.headline h1 {
+  text-transform: capitalize;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+.headline p {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+label {
+  color: #ffffff;
+}
+.contact {
+  text-align: center;
+  height: 40vh;
+}
+.contact h1 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin-top: 3rem;
+}
+.social-icon {
+  font-size: 3rem;
+  padding: 2rem;
+}
+.footer {
+  display: flex;
+}
+.footer li {
+  padding: 1rem;
+}
+@media (max-width: 500px) {
+  .headline h1 {
+    font-size: 2rem;
+  }
+  .headline p {
+    margin-top: 0.3rem;
+    font-size: 0.8rem;
+  }
+  .contact h1 {
+    font-size: 1.3rem;
+  }
+  .social-icon {
+    font-size: 2rem;
+    padding: 2rem;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer li {
+    padding: 0.3rem;
+  }
 }
